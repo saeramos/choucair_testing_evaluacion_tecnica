@@ -23,13 +23,13 @@ public class SearchOnDuckDuckGoStepDefinitions {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Given("^(.*) is on the DuckDuckGo home page")
+    @Given("^(.*) s on the DuckDuckGo home page")
     public void on_the_DuckDuckGo_home_page(String actor) {
         theActorCalled(actor).attemptsTo(NavigateTo.theDuckDuckGoHomePage());
     }
 
-    @When("^s?he searches for \"(.*)\"")
-    public void search_for(String term) {
+    @When("^s?he searchess for \"(.*)\"")
+    public void search_ffor(String term) {
         theActorInTheSpotlight().attemptsTo( SearchFor.term(term) );
     }
 

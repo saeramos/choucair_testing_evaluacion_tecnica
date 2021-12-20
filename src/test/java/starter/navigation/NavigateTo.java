@@ -8,7 +8,7 @@ public class NavigateTo  {
 
     public static Performable theDuckDuckGoHomePage() {
         return Task.where("{0} opens the DuckDuckGo home page",
-                Open.browserOn().the(DuckDuckGoHomePage.class)
+                Open.browserOn().the(AutomationPracticeHomePage.class)
         );
     }
     public static Performable aMissingPage() {
