@@ -28,6 +28,8 @@ public class IndexStepDefinitions {
     }
     @Then("^all the result titles should contain the word \"(.*)\"")
     public void all_the_result_titles_should_contain_the_word(String term) {
-        System.out.println("HHH");
+
     }
+
+
 }
