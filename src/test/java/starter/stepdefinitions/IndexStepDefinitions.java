@@ -20,7 +20,7 @@ public class IndexStepDefinitions {
 
     @Given("^(.*) is on the AutomationPractice home page")
     public void on_the_AutomationPractice_home_page(String actor) {
-        theActorCalled(actor).attemptsTo(NavigateTo.theDuckDuckGoHomePage());
+        theActorCalled(actor).attemptsTo(NavigateTo.AutomationPracticeHomePage());
     }
     @When("^s?he searches for \"(.*)\"")
     public void search_for(String term) {

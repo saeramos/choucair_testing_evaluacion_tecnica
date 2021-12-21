@@ -6,13 +6,13 @@ import net.serenitybdd.screenplay.actions.Open;
 
 public class NavigateTo  {
 
-    public static Performable theDuckDuckGoHomePage() {
-        return Task.where("{0} opens the DuckDuckGo home page",
+    public static Performable AutomationPracticeHomePage() {
+        return Task.where("{0} opens the automationpractice.com home page",
                 Open.browserOn().the(AutomationPracticeHomePage.class)
         );
     }
     public static Performable aMissingPage() {
-        return Task.where("{0} opens the DuckDuckGo home page",
+        return Task.where("{0} opens the automationpractice.com home page",
                 Open.browserOn().the(WrongPage.class)
         );
     }
