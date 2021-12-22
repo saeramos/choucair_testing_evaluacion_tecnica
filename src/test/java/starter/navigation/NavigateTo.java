@@ -11,7 +11,11 @@ public class NavigateTo  {
                 Open.browserOn().the(AutomationPracticeHomePage.class)
         );
     }
-
+    public static Performable aMissingPage() {
+        return Task.where("{0} opens the automationpractice.com home page",
+                Open.browserOn().the(WrongPage.class)
+        );
+    }
     public static Performable AutomationPracticeLoginPage() {
         return Task.where("{0} opens the automationpractice.com home page",
                 Open.browserOn().the(AutomationPracticeLoginPage.class)

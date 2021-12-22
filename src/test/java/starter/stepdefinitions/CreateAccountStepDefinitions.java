@@ -10,8 +10,8 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 public class CreateAccountStepDefinitions {
     String n;
 
-    @Given("^(.*) in to page Create")
-    public void in_to_page_Create(String n) {
+    @Given("^(.*) in to page Create Account")
+    public void in_to_page_Create_Account(String n) {
         // Write code here that turns the phrase above into concrete actions
         this.n = n;
     }
